@@ -66,3 +66,8 @@ If the container crashes or dies for whatever reason, it can be restarted with
 ```
 sudo docker start jupyter
 ```
+
+Optionally verify docker install with
+```
+sudo docker run hello-world
+```
