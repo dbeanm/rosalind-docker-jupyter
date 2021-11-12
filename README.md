@@ -54,10 +54,12 @@ sudo docker run -i -t -p 8888:8888 --name=jupyter \
      --notebook-dir=/opt/notebooks --ip='*' --port=8888 \
      --no-browser --allow-root"
 ```
-Copy/paste the authorisation token from the terminal and go to
+
+Copy the authorisation token from the terminal and go to
 ```
-http://{your instance IP}:8888/{your auth token}
+http://{your instance IP}:8888/
 ```
+At the bottom of the screen, enter the token and set a password for future access.
 
 # Notes
 You can just leave the terminal session or detach e.g. with ctrl+p,ctrl+q but don't ctrl+c (i.e. don't stop the juputer container)
